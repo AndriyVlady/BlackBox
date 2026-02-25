@@ -1,4 +1,4 @@
-# Фвйд с примерами автоматизации Методанных и склейки Pythonj и SQL
+# Файл с примерами автоматизации Методанных и склейки Python и SQL
 
 def generate_hub_sql(metadata):
     # Достаем значения из словаря (metadata)
@@ -36,4 +36,3 @@ for m in mappings:
     print(f"-- Генерируем загрузку для {m['source_table']}")
     print(generate_hub_sql(m))
 
-    
